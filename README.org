@@ -1,0 +1,3 @@
+#+title: Noptics
+
+Noptics is a library for /the concept/ of optics in Rust. It does not implement optics itself (hence the name, not-optics) as it is in Haskell. Noptics aims to satisfy Rust ideologies by being asynchronous, thread-safe, and atomic (when possible).
