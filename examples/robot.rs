@@ -1,5 +1,6 @@
 use futures::StreamExt;
-use noptics::{Data, Lens};
+use noptics::Lens;
+use tarsier::Data;
 use tokio::pin;
 
 #[derive(Default, Copy, Clone)]

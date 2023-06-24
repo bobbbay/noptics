@@ -2,11 +2,8 @@ use std::{marker::PhantomData, sync::Arc};
 
 use atomic::{Atomic, Ordering};
 use futures::Stream;
+use tarsier::Data;
 use tokio::sync::watch::{self, Receiver, Sender};
-
-/// Marker trait for all kinds of Tarsier Data. Data is a piece of state
-/// that is Copy, small, and efficient.
-pub trait Data: Copy {}
 
 /// A Lens is a functional method to access one part of a larger data
 /// structure, as long as the owner and its data implement [`Data`]. Lenses

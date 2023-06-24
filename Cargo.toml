@@ -7,4 +7,5 @@ edition = "2021"
 async-stream = "0.3.5"
 atomic = "0.5.3"
 futures = "0.3.28"
+tarsier = { git = "https://github.com/bobbbay/tarsier", version = "0.1.0" }
 tokio = { version = "1.28.2", features = ["full"] }
