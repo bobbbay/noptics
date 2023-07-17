@@ -1,7 +1,9 @@
 use futures::StreamExt;
 use noptics::Lens;
-use tarsier::Data;
+// use tarsier::Data;
 use tokio::pin;
+
+use noptics::Data;
 
 #[derive(Default, Copy, Clone)]
 struct GyroRotDeg(usize);
